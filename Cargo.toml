@@ -1,0 +1,12 @@
+[package]
+name = "type-generic-umfpack"
+version = "0.1.0"
+edition = "2024"
+build = "build.rs"
+license = "GPL-3.0"
+
+[dependencies]
+concat-idents = "1.1.5"
+nalgebra = "0.33.2"
+num-traits = "0.2.19"
+umfpack-rs = { git = "https://github.com/su-z/umfpack-rs.git", branch = "master" }
